@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Generated model/results (re-create by running src/train.py)
+results/*.keras
+results/metrics.json
+results/predictions.csv
+figures/training_curves.png
+figures/confusion_matrix.png
